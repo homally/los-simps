@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+     margin: 0%;
+     padding: 0%;
+     background-image: url(IMG/planta.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+.altura1{
+    height: 5rem;
+    background-color: rgb(252, 161, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    border: 3px solid black; 
+    font-size: 16px;
+}
+.altura2{
+    height: 5rem;
+    background-color: #c8a07c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    border: 3px solid black; 
+    font-size: 16px;
+}
+.altura3{
+    height: 5rem;
+    background-color:#dc9377;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    border: 3px solid black; 
+    font-size: 16px;
+}
+.altura4{
+    height: 5rem;
+    background-color: rgb(255, 238, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    border: 3px solid black; 
+    font-size: 16px;
+}
+.slider{
+    height: 25rem;
+    background-color: rgba(118, 118, 118, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    background-image: url(IMG/CIELO.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.marge{
+    background-position: center;
+    background-color: #c3b3fa00;
+    height: 90rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.homer{
+    background-color: rgba(14, 0, 77, 0);
+    height: 90rem;
+    width: 80%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.bar {
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+    text-decoration: none;
+}
+.bar:hover{
+    background-color: rgba(251, 125, 255, 0);
+    color: rgb(255, 255, 255);
+    width: 110%;
+    height: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 25px;
+    text-decoration: none;
+} 
+.casa {
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+    text-decoration: none;
+}
+.casa:hover{
+    background-color: rgba(0, 255, 128, 0);
+    color: #755024;
+    width: 110%;
+    height: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 25px;
+    text-decoration: none;
+} 
+.escuela {
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+    text-decoration: none;
+}
+.escuela:hover{
+    background-color: rgba(77, 0, 148, 0);
+    color: #9664b3;
+    width: 110%;
+    height: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 25px;
+    text-decoration: none;
+} 
+.simp {
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+    text-decoration: none;
+}
+.simp:hover{
+    background-color: rgba(251, 125, 255, 0);
+    color: rgb(0, 204, 255);
+    width: 110%;
+    height: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 25px;
+    text-decoration: none;
+} 
+.h1 {
+    font-weight: 900;
+    text-shadow: 8px red;
+}
+img {
+    display: block;
+    margin: auto;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
